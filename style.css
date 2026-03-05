@@ -199,3 +199,53 @@ sudip {
   margin: 20px auto;
   
 }
+tr.mesh td:nth-child(2){
+background:#ff4d4d;
+color:white;
+}
+
+tr.brish td:nth-child(2){
+background:#fff2cc;
+}
+
+tr.mithun td:nth-child(2){
+background:#90ee90;
+}
+
+tr.karkat td:nth-child(2){
+background:#e6f2ff;
+}
+
+tr.singh td:nth-child(2){
+background:#ffd700;
+}
+
+tr.kanya td:nth-child(2){
+background:#c8e6c9;
+}
+
+tr.tula td:nth-child(2){
+background:#add8e6;
+}
+
+tr.brischik td:nth-child(2){
+background:#800000;
+color:white;
+}
+
+tr.dhanu td:nth-child(2){
+background:#ffe066;
+}
+
+tr.makar td:nth-child(2){
+background:#2f4f4f;
+color:white;
+}
+
+tr.kumbha td:nth-child(2){
+background:#87cefa;
+}
+
+tr.meen td:nth-child(2){
+background:#f7e7a9;
+}
