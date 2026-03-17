@@ -6,10 +6,17 @@ body {
     flex-direction: column;
     color: white;
 }
-
 nav {
-    background: rgb(242, 6, 6);
-    padding: 15px;
+    background: rgb(255, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 18px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     text-align: center;
 }
 
