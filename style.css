@@ -1,7 +1,6 @@
 body {
     font-family: 'Noto Sans Devanagari', sans-serif;
     margin: 0;
-    background: linear-gradient(135deg,#fe0000,#2a5298);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,13 +8,13 @@ body {
 }
 
 nav {
-    background: rgba(0,0,0,0.4);
+    background: rgb(242, 6, 6);
     padding: 15px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 18px;
     font-weight: bold;
@@ -127,7 +126,7 @@ button {
 }
 
 footer {
-    background: rgba(0,0,0,0.4);
+    background: rgb(242, 4, 4);
     text-align: center;
     padding: 15px;
 }
@@ -172,20 +171,8 @@ h1 {
     margin-bottom:15px;
     border:4px solid #1e3c72;
 }
-main {
-  background-image: url("images/backgroundcover.png");
-  background-size: cover;
-  background-position: center;
-  height: 00px;
-  width: auto;
-}
 
-sudip {
- 
- color: chartreuse;
-  margin: 20px auto;
-  
-}
+
 tr.mesh td:nth-child(2){
 background:#ff4d4d;
 color:white;
@@ -235,4 +222,15 @@ background:#87cefa;
 
 tr.meen td:nth-child(2){
 background:#f7e7a9;
+}
+
+#bg-video{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+pointer-events:none;
 }
