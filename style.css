@@ -7,7 +7,9 @@ body {
     color: white;
 }
 nav {
-    background: rgb(255, 0, 0);
+    background: rgba(245, 4, 4, 0.3);
+    backdrop-filter: blur(10px); 
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -21,7 +23,7 @@ nav {
 }
 
 nav a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     margin: 0 18px;
     font-weight: bold;
@@ -29,7 +31,13 @@ nav a {
 }
 
 nav a:hover {
-    color: gold;
+    color: rgb(86, 83, 62);
+    display: inline-block;
+    background: rgb(133, 135, 125);
+    border-radius: 15px;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -91,6 +99,14 @@ main {
     display: block;
     margin: 10px auto 20px;
     border: 4px solid #1e3c72;
+    rotate: inherit;
+}
+  img {
+  transition: transform 10s ease;
+}
+
+img:hover {
+  transform: rotate(360deg);
 }
 
 .box {
